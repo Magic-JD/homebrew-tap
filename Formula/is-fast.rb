@@ -1,25 +1,25 @@
 class IsFast < Formula
   desc "Internet search fast - view webpages from the terminal."
   homepage "https://github.com/Magic-JD/is-fast"
-  version "0.7.2"
+  version "0.8.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.7.2/is-fast-aarch64-apple-darwin.tar.xz"
-      sha256 "e4a071862f2b9a0492b7bc0b39042ba4380f196f983e45cde4f2b90d12c9a5a8"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.8.0/is-fast-aarch64-apple-darwin.tar.xz"
+      sha256 "895115c47ee901252bdea7a4ed79e4b99f493aa5844fd4b347960ea04b5bb3b7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.7.2/is-fast-x86_64-apple-darwin.tar.xz"
-      sha256 "ff19d6d6c03368ccb32ab1754d5b18c62dab211dd3b71d5f8ca12c5b43d9673b"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.8.0/is-fast-x86_64-apple-darwin.tar.xz"
+      sha256 "fe212f92d2d74b95a54a984017042298fb3801a8427262acc4c921440e2267eb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.7.2/is-fast-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "dfe81a1ebe6b2248d9126996474568a20d70751d896c577d14be2e3cd13bb17b"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.8.0/is-fast-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "74c174248151bedd00e1c7c5ea48b5b42e08db59128fd7870ef783b742eab3c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.7.2/is-fast-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a623358b5415e6763aa4fa69a4be58111657c206dae5cccfbd49dfd791735ccb"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.8.0/is-fast-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b285cad147e7db5da96deb7ea25cc3f7abb2c0dc0bc4aff454f6dca49c1f0bfb"
     end
   end
 
