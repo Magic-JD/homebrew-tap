@@ -1,25 +1,25 @@
 class Docu < Formula
   desc "Document your favourite scriptlets for fast reference."
   homepage "https://github.com/Magic-JD/docu"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/docu/releases/download/v0.2.0/docu-aarch64-apple-darwin.tar.xz"
-      sha256 "a01655bc6436467236ac9734647357b0fb222f290fdd1d216b1adb8e48f42607"
+      url "https://github.com/Magic-JD/docu/releases/download/v0.2.1/docu-aarch64-apple-darwin.tar.xz"
+      sha256 "45f3d1854751d6f225dc4ccf33837f0e3f6e0fed7a7902649f5b969070a3a9c8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/docu/releases/download/v0.2.0/docu-x86_64-apple-darwin.tar.xz"
-      sha256 "53af2fd03650451c513a9438913270f686322cba5c0137c9da426f1654643266"
+      url "https://github.com/Magic-JD/docu/releases/download/v0.2.1/docu-x86_64-apple-darwin.tar.xz"
+      sha256 "dbd38466007d4981730ea73c2a8486e24210a10402926e3849289d805cf8313a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/docu/releases/download/v0.2.0/docu-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e142cf650238b048f63ab5f18cd00bbb970dd1f6a2b9e354f549b14a18cdcc36"
+      url "https://github.com/Magic-JD/docu/releases/download/v0.2.1/docu-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3bbdfc08e0f22b7f5c4e04436dea1f398038614ae4480f4d33ad985d2a07e083"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/docu/releases/download/v0.2.0/docu-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0480c151719b4e6248e0ffd8f200661f2c318f059824ee20c057b710f7b675c0"
+      url "https://github.com/Magic-JD/docu/releases/download/v0.2.1/docu-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "ab6879bf8229d01bf8e38758dc31f1caf7f5d0d6c49bbaa8b6ae37b2cb549e00"
     end
   end
 
