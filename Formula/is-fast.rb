@@ -1,25 +1,25 @@
 class IsFast < Formula
   desc "Internet search fast - view webpages from the terminal."
   homepage "https://github.com/Magic-JD/is-fast"
-  version "0.17.2"
+  version "0.17.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.2/is-fast-aarch64-apple-darwin.tar.xz"
-      sha256 "0cb13c9ee2c35165395c2b6cc63a4032b787041e57465c83d42ebacad1db3ab7"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.6/is-fast-aarch64-apple-darwin.tar.xz"
+      sha256 "302f6fe058e9c64372c90015bfdabd1d082c5c0429b6c345709ac56c4ff49743"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.2/is-fast-x86_64-apple-darwin.tar.xz"
-      sha256 "55be256fb105e059077d645640f27881e5149254ca7fa1dc1c1ca8119919b7d1"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.6/is-fast-x86_64-apple-darwin.tar.xz"
+      sha256 "7f101cb1ae80351dfca1207b95ac8d718bc12f285d0b3f5964dc7b8706da438a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.2/is-fast-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "fa58319650a3ca52e1507bbca0e4eb76a46e7c0beb2f49ebb112bb7ba9f48994"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.6/is-fast-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "73b5adc3148ea2958e675a4e4e0da06443de7b2ffa77282ab3e521c3ecc4d306"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.2/is-fast-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ec518616a613f43865c8b6296b3b679e335ee6f2e0bef9c523852d8ecaf8e48e"
+      url "https://github.com/Magic-JD/is-fast/releases/download/v0.17.6/is-fast-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5f57a88bd72ed9cec69a707de5c6c1f1c144567292b7313052df220cc44de80a"
     end
   end
 
@@ -30,6 +30,7 @@ class IsFast < Formula
     "i686-unknown-linux-musl-dynamic":   {},
     "i686-unknown-linux-musl-static":    {},
     "x86_64-apple-darwin":               {},
+    "x86_64-pc-windows-gnu":             {},
     "x86_64-unknown-linux-gnu":          {},
     "x86_64-unknown-linux-musl-dynamic": {},
     "x86_64-unknown-linux-musl-static":  {},
