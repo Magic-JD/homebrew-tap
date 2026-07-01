@@ -1,25 +1,25 @@
 class Tokenburn < Formula
   desc "Measures token spend when using claude code."
   homepage "https://github.com/Magic-JD/tokenburn"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.3/tokenburn-aarch64-apple-darwin.tar.xz"
-      sha256 "e2b7f8d067c1a748aecaba29d493ace83f1657baf2f09f96b9a096bf916cccba"
+      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.4/tokenburn-aarch64-apple-darwin.tar.xz"
+      sha256 "a2bd32e0373fec6af2b0949bca64d538bedbaabcb12beeff86a28555034d1bd9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.3/tokenburn-x86_64-apple-darwin.tar.xz"
-      sha256 "f1f1721fd0e831ca42087edca0bc22af816fba89848cc3bd70599e27eca54610"
+      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.4/tokenburn-x86_64-apple-darwin.tar.xz"
+      sha256 "8961488d6bdf9e56dd97d7e8570a445eae08ce81ac781bae462e4531203407fa"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.3/tokenburn-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5ebb41ebc07f4dee67adb7c2afc48dd77fd9c94eefbaa3f885642d5d797a8b9e"
+      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.4/tokenburn-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "22ed89282f3d37f35b9a97099780bc23baf2ba5c6c60ce8fa9862ae952af511b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.3/tokenburn-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "17c5c3ac8830164d19103f91c2fb4c30f917e2be869cd809473ce93648f5bc8a"
+      url "https://github.com/Magic-JD/tokenburn/releases/download/v0.1.4/tokenburn-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4ff75f93fcdfbd0183e8db181b3bc3356a7d870d52643d746638e8d4382ef08b"
     end
   end
 
